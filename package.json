@@ -1,0 +1,27 @@
+{
+  "name": "nodle-loadtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConsiderItDone/nodle-loadtest.git"
+  },
+  "homepage": "https://github.com/ConsiderItDone/nodle-loadtest#readme",
+  "dependencies": {
+    "@polkadot/api": "^3.11.1",
+    "@polkadot/keyring": "^7.4.1",
+    "@polkadot/wasm-crypto": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.5",
+    "ts-node": "^10.3.0",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "npm exec tsc",
+    "start:loadtest:Transfer": "npm exec -- ts-node src/index.ts transfer",
+    "start:loadtest:Allocation": "npm exec -- ts-node src/index.ts allocation"
+  }
+}
