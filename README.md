@@ -6,11 +6,11 @@ npm i
 ```
 
 Execute:
-transfers
+- transfers
 ```
 npm run start:loadtest:Transfer
 ```
-allocations
+- allocations
 ```
 npm run start:loadtest:Allocation
 ```
