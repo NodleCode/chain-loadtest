@@ -16,3 +16,9 @@ npm run start:loadtest:Allocation
 ```
 
 or corresponding script from package.json
+
+
+env
+```
+WS_PROVIDER=polkadot chain ws provider
+```
